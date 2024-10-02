@@ -2,7 +2,7 @@ import json
 import uuid
 
 from django.http import JsonResponse
-# from yookassa import Configuration, Payment
+from yookassa import Configuration, Payment
 from django.conf import settings
 from cart.cart import Cart
 from .models import Order, OrderItem
